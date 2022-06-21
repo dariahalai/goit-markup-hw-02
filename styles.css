@@ -15,6 +15,7 @@ body{
     background-color: var(--main-background-color);
     font-family: Roboto, sans-serif;
     letter-spacing: 0.03em;
+    font-size: 14px;
 }
 /*Header*/
 .logo{
@@ -40,7 +41,6 @@ ul{
     color:var(--main-color);
     font-family: 'Roboto';
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
@@ -56,7 +56,6 @@ ul{
     color: var(--secondary-text-color);
     font-family: 'Roboto';
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em; 
     text-decoration: none;
@@ -74,6 +73,7 @@ color: var(--color-of-active);
     background-color: var(--third-background-color);
 }
 .main-title{
+    text-transform: uppercase;
     color:var(--white-color);
     font-weight: 900;
     font-size: 44px;
@@ -98,12 +98,12 @@ color: var(--color-of-active);
 
 }
 .title-features{
+    text-transform: uppercase;
     font-size: 14px;
     line-height: 1.14;
 }
 .feautures-about{
     color: var(--secondary-text-color);
-    font-size: 14px;
     line-height: 1.7;
 }
 .worker-card{
@@ -127,7 +127,6 @@ color: var(--color-of-active);
 }
  .address a{
     color: var(--white-color);
-    font-size: 14px;
     line-height: 1.7;
     font-style: normal;
     text-decoration: none;
